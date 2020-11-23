@@ -1,0 +1,21 @@
+{
+  "name": "nodejs-api-pure",
+  "version": "1.0.0",
+  "description": "Esta api foi construida sem ajuda de frameworks, nela apenas utilizamos o nodejs puro sem o uso de nestjs, expressjs e etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "sh testscript.sh",
+    "start": "node src/index.js",
+    "dev": "npx nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "request": "^2.88.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
